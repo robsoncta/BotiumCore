@@ -64,7 +64,7 @@ app.post('/onemore', (req, res) => {
   }
 })
 
-const port = process.env.PORT || 1234
+const port = process.env.PORT || 10000
 app.listen(port, () => {
   console.log(`Joke Bot is listening on port ${port}`)
 })

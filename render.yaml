@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: botium-core
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    port: 10000

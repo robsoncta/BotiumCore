@@ -10,6 +10,7 @@
   "scripts": {
     "postinstall": "node ./report.js",
     "build": "npm run eslint && nyc npm test && nyc check-coverage --lines 50 --functions 50 --branches 35 && rollup -c",
+    "start": "node server.js",
     "eslint": "eslint \"./src/**/*.js\" \"./test/**/*.js\"",
     "eslint-fix": "eslint --fix \"./src/**/*.js\" \"./test/**/*.js\"",
     "newpatch": "npm version patch",

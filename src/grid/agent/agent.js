@@ -10,7 +10,7 @@ const debug = require('debug')('botium-core-agent')
 const Events = require('../../Events')
 const workerpool = require('./agentworkerpool')
 
-const port = process.env.PORT || 46100
+const port = process.env.PORT || 10000
 const apiToken = process.env.BOTIUM_API_TOKEN || ''
 if (!apiToken) {
   console.log('WARNING: BOTIUM_API_TOKEN not set, all clients will be accepted')
